@@ -12,12 +12,15 @@ var gameStart = false;
 var finish = false;
 var wins = 0;
 
+
 function gameRestart() {
   guessesLeft = maxTries;
-  gameStarted = false;
   activeWordIndex = Math.floor(Math.random() * (wordBank.length));
   lettersTried = [];
   activeWord = [];
+
+  document.getElementById("#").src = "";
+
 
 
 
@@ -77,4 +80,4 @@ function gameRestart() {
       wins++;
       finish = true;
     }
-  }
+  };
