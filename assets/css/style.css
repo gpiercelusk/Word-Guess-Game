@@ -6,6 +6,7 @@ body  {
  background-image: url("../images/coolbread.jpg"); 
  width: 790px;
  height: 570px;
+ margin-bottom: 50px;
 }
 
 #header  {
@@ -27,7 +28,7 @@ h3  {
 
 #game  {
     color: coral;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -40,7 +41,7 @@ h3  {
 }
 
 #guesses  {
-    opacity: 0.7;
+    opacity: 0.9;
     font-family: 'Coiny', cursive;
     color: coral;
     text-align: center;
@@ -51,6 +52,16 @@ h3  {
     
 }
 
-
+.page-footer{
+ font-family: 'Arial, Helvetica, sans-serif';
+  background-color: #777777;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 
