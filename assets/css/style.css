@@ -1,0 +1,56 @@
+body  {
+    background-color: wheat;
+}
+
+.container {
+ background-image: url("../images/coolbread.jpg"); 
+ width: 790px;
+ height: 570px;
+}
+
+#header  {
+    height: 100px;
+    width: auto;
+    margin: 0 auto 0 auto;
+    padding-top: 15px;
+}
+
+h3  {
+    font-size: 30px;
+}
+
+#instructions  {
+    font-family: 'Coiny', cursive;
+    color: coral;
+    margin-bottom: 15px;
+}
+
+#game  {
+    color: coral;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#stats  {
+    font-family: 'Coiny', cursive;
+    color: coral;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#guesses  {
+    opacity: 0.7;
+    font-family: 'Coiny', cursive;
+    color: coral;
+    text-align: center;
+    background-color: #dddddd;
+    border: solid coral 1px;
+    height: 60px;
+    border-radius: 8px;
+    
+}
+
+
+
+
