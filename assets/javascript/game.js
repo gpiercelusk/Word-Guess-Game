@@ -9,8 +9,8 @@ var activeWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 var guessArray = [];
 var html = "<p><h1>";
 
-// Turn word into array
-// Create a loop for array and add true false tags
+// make array word and array
+// loop array and add true false tags
 function splitUpWord() {
   for (var i = 0, g = 0; i < activeWord.length; i++) {
     guessArray[g] = activeWord.charAt(i);
@@ -55,7 +55,7 @@ function resetGame() {
   document.querySelector("#stats").innerHTML = htmlStats;
 }
 
-//Update on screen game, stats, and guessed letters
+//update screen:(game, stats, and guessed letters)
 function howYouDoin() {
   for (i = 0, g = 0; i < (guessArray.length / 2); i++) {
     if (guessArray[g + 1] == true) {
@@ -117,7 +117,7 @@ function htmlVar() {
   html = "<p><h1>";
 }
 
-// Set up game
+// set up game
 splitUpWord();
 resetGame();
 consoleLogger();
