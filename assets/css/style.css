@@ -28,7 +28,7 @@ h3  {
 
 #game  {
     color: coral;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Coiny', cursive;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -48,7 +48,7 @@ h3  {
     background-color: #dddddd;
     border: solid coral 1px;
     height: 60px;
-    border-radius: 8px;
+    border-radius: 50px 20px;
     
 }
 
